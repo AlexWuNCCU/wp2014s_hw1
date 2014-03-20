@@ -5,30 +5,34 @@
 	<![endif]-->
 	<title>卡提諾漫畫</title>
 	<meta charset="UTF-8">
-	<style>
-      #footer {
-        text-align: center;
-        width: 100%;
-        font-size: 10px;
-      }
-    </style>
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/text.css" />
+	<link rel="stylesheet" href="css/960_24_col.css" />
+	<link rel="stylesheet" href="css.css" />
+	
 </head>
-<body>
+<body class="container_24">
+	<article class = "backgroundBox">
 	<header>
-		<img src="http://nsm.ckcdn.com/images/newlogo.png" alt="卡提諾漫畫">
-		<p><h3>卡提諾漫畫是一個線上漫畫動漫資訊分享平台。集合國內外海量多元漫畫,及時更新線上漫畫，擁有詳盡的動漫資料庫、動漫資訊，提供給廣大漫畫動漫愛好者一個討論交流的空間。本站收錄海賊王火影忍者死神進擊的巨人灌籃高手等熱門漫畫動漫，還有更多格鬥熱血胸器蘿莉邪惡重口味獵奇另類耽美漫畫。</h3></p>
-		<nav>
+		<div class="topic">
+		<img src="https://dl.dropboxusercontent.com/u/46349311/topic.png" alt="卡提諾漫畫">
+		</div>
+		 <p>&nbsp</p>
+		 <p>&nbsp</p>
+		<nav class = "members">
 		會員：<a href="http://ck101.com/member.php?mod=register">註冊</a> &#124 <a href="">登入</a>
 		</nav>
+		<div class = "search"> 
 		<label for="what">漫畫搜尋</label>
     	<input type="text" name="w" id="what"> <input type="submit" value="搜尋">
+    	</div>
     	<hr>
 	</header>
-	<nav>
-	<ul>
+	<nav class = "category" >
+	<ul id = "navmenu-v" class = "grid_4">
 		<li><a href="http://comic.ck101.com/">首頁</a></li>
-		<li>漫畫屬性分類</li>
-		<ul>
+		<li><a href="#">漫畫屬性分類+</a>
+		<ul class = "category_medium">
 			<li><a href="http://comic.ck101.com/comicstaglist/%E6%88%B0%E9%AC%A5">戰鬥</a></li>
 			<li><a href="http://comic.ck101.com/comicstaglist/%E6%87%B8%E7%96%91">懸疑</a></li>
 			<li><a href="http://comic.ck101.com/comicstaglist/%E5%8B%B5%E5%BF%97">勵志</a></li>
@@ -42,71 +46,82 @@
 			<li><a href="http://comic.ck101.com/comicstaglist/%E7%B4%94%E6%83%85">純情</a></li>
 			<li><a href="http://comic.ck101.com/lists/4/">科幻</a></li>
 			<li><a href="http://comic.ck101.com/lists/13/">其它</a></li>
-		</ul>
-		<li>漫畫狀態分類</li>
-		<ul>
+		</ul></li>
+		<li><a href="#">漫畫狀態分類+</a>
+		<ul class = "category_medium">
 			<li><a href="http://comic.ck101.com/hotcomic/1">最近更新</a></li>
 			<li><a href="http://comic.ck101.com/comicstaglist/%E5%AE%8C%E7%B5%90">經典完結</a></li>
-			<li>更新日期
-			<ul>
+			<li><a href="#">更新日期+</a>
+			<ul class = "category_low">
 				<li><a href="http://comic.ck101.com/weeklylists/1">週一刊</a></li>
 				<li><a href="http://comic.ck101.com/weeklylists/2">週二刊</a></li>
 				<li><a href="http://comic.ck101.com/weeklylists/3">週三刊</a></li>
 				<li><a href="http://comic.ck101.com/weeklylists/4">週四刊</a></li>
 				<li><a href="http://comic.ck101.com/weeklylists/5">週五刊</a></li>
 				<li><a href="http://comic.ck101.com/weeklylists/6">週六刊</a></li>
-			</ul>
-			<li><a href="http://comic.ck101.com/rank">漫畫排行榜</li>
-			<ul>
-				<li><a href="">總人氣榜</li>
-				<li><a href="">搞笑人氣榜</li>
-				<li><a href="">科幻人氣榜</li>
-				<li><a href="">少年人氣榜</li>
-				<li><a href="">懸疑人氣榜</li>
-				<li><a href="">校園人氣榜</li>
-			</ul>
-		</ul>
+			</ul></li></ul></li>
+		<li><a href="http://comic.ck101.com/rank">漫畫排行榜</a></li>
 		<li><a href="http://comic.ck101.com/randomcomic/1">網友推薦漫畫</a></li>
 		<li><a href="http://ck101.com/">卡提諾論壇</a></li>
 		<li><a href="http://v.ck101.com/">線上影音</a></li>
 		<li><a href="http://photo.ck101.com/">卡提諾畫報</a></li>
 		<li><a href="http://comic.ck101.com/">會員中心</a></li>
 	</ul>
-	<hr>
 	</nav>
-	<article>
-		<table border = "2">
-			<caption>漫畫排行榜</caption>
-			<thead>
-				<tr><th colspan="2">總人氣榜</th><th colspan="2">搞笑人氣榜</th><th colspan="2">校園人氣榜</th></tr>
-			</thead>
-			<tbody>
-				<tr><td> 1 <td> 進擊的巨人 <td> 1 <td> 美食獵人  <td> 1 <td> 偽戀
-				<tr><td> 2 <td>  航海王 <td> 2 <td>  惡魔奶爸 <td> 2 <td> 監獄學員
-				<tr><td> 3 <td>  火影忍者 <td> 3 <td> 山田和七個魔女  <td> 3 <td> 鄰居同居
-				<tr><td> 4 <td>  第一神拳 <td> 4 <td>  銀魂 <td> 4 <td> 鄰座的怪同學
-				<tr><td> 5 <td>  黑子的籃球 <td> 5 <td>  烏龍派出所 <td> 5 <td> Again!!重來一次
-			</tbody>
-		</table>
-	<hr>
-	</article>
-
-	<article>
+	<article class = "grid_18 box">
 		<header>
-			<p>活動訊息 &nbsp&nbsp&nbsp&nbsp<a href="http://ck101.com/thread-2911283-1-1.html">MORE</a></p>
+			<p><a href="http://ck101.com/thread-2911283-1-1.html">活動訊息</a></p>
 		</header>	
 			<ul>
 				<li><a href="http://ck101.com/thread-2911283-1-1.html">[綜合討論] 無法阻止 死神小學生已至近千人死亡</a></li>
 				<li><a href="http://ck101.com/thread-2923471-1-1.html">[綜合討論] 小強成災 《火星異種》人氣火爆</a></li>
 				<li><a href="http://ck101.com/thread-2929959-1-1.html">[漫畫分享] 【短篇推薦】意料之外邂逅你</a></li>
 			</ul>
-	<hr>
+	
 	</article>
 
+	<article class = "grid_18 box comic">
+		<header>
+			<p><a href="http://comic.ck101.com/hotcomic/1">最新更新</a></p>
+		</header>	
+				<p class= "grid_1"></p>
+				<a href="http://comic.ck101.com/comic/12173"><img src="http://1.ci.cdvcdn.com/img/okSTVSdi.jpg" alt="卡提諾漫畫" class = "grid_4"></a>
+				<a href="http://comic.ck101.com/comic/13716"><img src="http://1.ci.cdvcdn.com/img/okeOiU4o.jpg" alt="卡提諾漫畫" class = "grid_4"></a>
+				<a href="http://comic.ck101.com/comic/4729"><img src="http://1.ci.cdvcdn.com/img/okEZCn1y.jpg" alt="卡提諾漫畫" class = "grid_4"></a>
+				<a href="http://comic.ck101.com/comic/10937"><img src="http://1.ci.cdvcdn.com/img/ok2OMJVw.jpg" alt="卡提諾漫畫" class = "grid_4"></a>
+				<div class="clear"></div>
+				<p>&nbsp</p>
+				<p class= "grid_1"></p>
+				<a href="http://comic.ck101.com/comic/170"><img src="http://1.ci.cdvcdn.com/img/oktiJKLO.jpg" alt="卡提諾漫畫" class = "grid_4"></a>
+				<a href="http://comic.ck101.com/comic/15226"><img src="http://1.ci.cdvcdn.com/img/okPiDeC3.jpg" alt="卡提諾漫畫" class = "grid_4"></a>
+				<a href="http://comic.ck101.com/comic/168"><img src="http://1.ci.cdvcdn.com/img/okHWkdpP.jpg" alt="卡提諾漫畫" class = "grid_4"></a>
+				<a href="http://comic.ck101.com/comic/7616"><img src="http://1.ci.cdvcdn.com/img/okyK6Tkb.jpg" alt="卡提諾漫畫" class = "grid_4"></a>
+	</article>
+	<div class = "grid_4">&nbsp</div>
+	<article class = "grid_18 box comic">
+	<table border = "2">
+		<p><a href="http://comic.ck101.com/rank">漫畫排行榜</a></p>
+		<thead>
+			<tr><td  class = "grid_2"><th colspan="2" >總人氣榜</th><th colspan="2">搞笑人氣榜</th><th colspan="2">校園人氣榜</th></tr>
+		</thead>
+		<tbody>
+			<tr><td  class = "grid_2">&nbsp<td class = "grid_1"> 1 <td class = "grid_4"> 進擊的巨人  <td class = "grid_1"> 1 <td class = "grid_4"> 美食獵人        <td class = "grid_1"> 1 <td  class = "grid_4"> 偽戀
+			<tr><td  class = "grid_2"><td> 2 <td>  航海王     <td> 2 <td>  惡魔奶爸       <td> 2 <td> 監獄學員
+			<tr><td  class = "grid_2"><td> 3 <td>  火影忍者   <td> 3 <td> 山田和七個魔女  <td> 3 <td> 鄰居同居
+			<tr><td  class = "grid_2"><td> 4 <td>  第一神拳   <td> 4 <td>  銀魂           <td> 4 <td> 鄰座的怪同學
+			<tr><td  class = "grid_2"><td> 5 <td>  黑子的籃球 <td> 5 <td>  烏龍派出所     <td> 5 <td> Again!!重來一次
+		</tbody>
+	</table>
+	<hr>
+	</article>
+	<div class="clear"></div>
 	<footer id="footer">
+		<p></p>
+		<hr>
       <p>
         重要聲明：comic101漫畫是一個線上漫畫資訊分享平台。以多元完整的漫畫資訊，提供給廣大動漫愛好者一個討論交流的空間。本站所收錄之漫畫均源自熱心網友提供，版權屬於原作者，若發現本站收錄之漫畫無意間侵犯到您的權益，請立刻來信告知，我們將會在第一時間內處理，謝謝。 
       </p>       
     </footer>
+    </article>
 </body>
 </html>
